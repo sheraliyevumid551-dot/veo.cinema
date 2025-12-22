@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+}
+.navbar_top{
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(90deg, #0031AF, #C27500);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.navbar_top_text{
+    width: 166px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.navbar_bottom{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.navbar_bottom_cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar_bottom_card{
+    display: flex;
+}
+.logo{
+    width: 103px;
+    height: 42px;
+}
+.navbar_bottom_card_text{
+  margin-top: 30px;
+}
+.navbar_bottom_lists{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.navbar_bottom_link{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    transition: 0.5s;
+}
+.navbar_bottom_link:hover{
+    color: #ED8E00;
+}
+.header_cards_title{
+    width: 600px;
+    height: 65px;
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 350px;
+}
+.header_cards_text{
+    width: 570px;
+    height: 94px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #C8C8C8;
+    position: absolute;
+    top: 435px;
+}
+.header_card{
+    width: 166px;
+    height: 45px;
+    position: absolute;
+    top: 500px;
+    color: #000000;
+    border-radius: 4px;
+    background-color: #F18128;
+}
+.parda{
+    width: 1140px;
+    height: 640px;
+    top: 180.5px;
+    color: #070F19BF;
+    position: absolute;
+    top: 160px
+    
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+}
+
+
+
+
+
