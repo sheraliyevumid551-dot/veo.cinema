@@ -207,3 +207,146 @@
     height: 500px;
         
 }
+/* main start */
+.main{
+    width: 100%;
+    
+}
+
+/* films start */
+.films{
+    width: 100%;
+    background-color: #040D1F;
+    padding-bottom: 60px;
+}
+.films_title{
+    font-size: 36px;
+    font-weight: 400;
+    color: #F18128;
+    padding-top: 40px;
+
+}
+.films_title::after{
+    content: '';
+    display: block;
+    width: 70px;
+    height: 2px;
+    background-color: #F18128;
+    margin-bottom: 50px;
+
+}
+.films_cards{
+    display: flex;
+    justify-content: space-between;
+}
+.film_card{
+    width: 255px;
+    height: 360px;
+    border: 1px solid white;
+    position: relative;
+    
+}
+.films_card_img{
+    width: 100%;
+    height: 100%;
+
+
+}
+.film_card_parda{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    color: white;
+    z-index: 5;
+
+}
+.film_card_bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: linear-gradient( #F1812859, #070F19CC);
+    
+
+}
+.film_card_parda_time{
+    width: 100px;
+    height: 24px;
+    border: 1px solid white;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0 30px;
+
+}
+.film_card_parda_title{
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    
+}
+/* Collections */
+.Collections{
+    width: 100%;
+    background-color:#040D1F;
+  
+}
+.Collections_title{
+    font-size: 36px;
+    font-weight: 400;
+    color: #F18128;
+    padding-top: 40px;
+}
+.Collections_title::after{
+    content: '';
+    display: block;
+    width: 165px;
+    height: 2px;
+    background-color: #F18128;
+    margin-bottom: 50px;
+
+}
+.Collections_cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.collection_card{
+    width: 350px;
+    height: 193px;
+    position: relative;
+
+}
+.Collections_cards_img{
+    width: 100%;
+    height: 100%;
+}
+.Collections_cards_parda{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    z-index: 5;
+}
+.collection_card_bg{
+    position: absolute;
+    top: 0;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #070F19, #317209);
+
+}
